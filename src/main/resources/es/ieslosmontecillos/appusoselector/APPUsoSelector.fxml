@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.layout.VBox?>
+<?import es.ieslosmontecillos.componentes_gonzalezfrancisco.SelectorDeslizamiento?>
+
+<?import javafx.scene.control.Button?>
+<?import es.ieslosmontecillos.componentes_gonzalezfrancisco.SelectorDeslizamiento?>
+<VBox alignment="CENTER" spacing="20.0" xmlns:fx="http://javafx.com/fxml" fx:controller="es.ieslosmontecillos.appusoselector.HelloController">
+    <Label text="Selectores" textFill="red"/>
+    <SelectorDeslizamiento fx:id="selectorUno" />
+    <SelectorDeslizamiento fx:id="selectorDos" />
+    <Label fx:id="labelSelector" textFill="green"/>
+</VBox>
